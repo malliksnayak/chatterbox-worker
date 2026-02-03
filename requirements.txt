@@ -1,0 +1,23 @@
+# Core ML & Processing
+numpy==1.26.0
+torch>=2.4.0
+torchaudio
+safetensors
+transformers>=4.46.3
+diffusers>=0.29.0
+einops
+scipy
+librosa==0.10.0
+soundfile
+omegaconf==2.3.0
+
+# Dependencies for Chatterbox logic
+conformer==0.3.2
+s3tokenizer
+resemble-perth==1.0.1
+pyloudnorm
+huggingface_hub
+
+# Production & RunPod specific
+runpod
+faster-whisper
